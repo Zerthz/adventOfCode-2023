@@ -18,7 +18,6 @@ namespace AdventOfCode2023.Days._1_7
                 string line;
                 while ((line = sr.ReadLine()!) != null)
                 {
-                    // Perform your tests here
                     var digits = string.Concat(line.Where(Char.IsDigit));
                     string doubleDigit = "";
                     doubleDigit += digits.First();
